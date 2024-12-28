@@ -1,0 +1,5 @@
+baseURL = 'https://imnotmadblog.github.io'
+languageCode = 'en-us'
+title = 'Im not MAD Blog'
+
+theme = 'hugo-bearcub'
