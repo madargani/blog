@@ -1,5 +1,27 @@
-baseURL = 'https://imnotmadblog.github.io'
-languageCode = 'en-us'
-title = 'Im not MAD Blog'
+baseURL = "https://imnotmadblog.github.io/"
+languageCode = "en-us"
+title = "Im not MAD Blog"
 
-theme = 'hugo-bearcub'
+theme = "paper"
+
+[params]
+  color = "linen"
+  
+  github = "madargani"
+  linkedin = "andre-dargani"
+  
+  avatar = "10"
+  name = "Andre Dargani"
+  bio = "Hi hi I'm me"
+  
+  monoDarkIcon = true
+  math = true
+# favicon = ""        logo on browser tab
+# appleTouchIcon = "" icon when put on home screen
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
