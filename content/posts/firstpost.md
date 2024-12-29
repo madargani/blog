@@ -6,6 +6,8 @@ tags = ["post", "markdown"]
 
 Hello! My name is Andre. This is my first Blog Post.
 
+I plan to use this platform to document my progress in my personal projects and share what I learn.
+
 ```javascript
 console.log("Hello From the Blog!")
 ```
