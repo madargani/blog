@@ -19,9 +19,9 @@ theme = "paper"
 # favicon = ""        logo on browser tab
 # appleTouchIcon = "" icon when put on home screen
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+# [menu]
+#   [[menu.main]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about/"
+#     weight = 10

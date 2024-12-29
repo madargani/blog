@@ -15,5 +15,12 @@
       <guid>https://madargani.github.io/posts/firstpost/</guid>
       <description>Hello! My name is Andre. This is my first Blog Post.&#xA;I plan to use this platform to document my progress in my personal projects and share what I learn.&#xA;console.log(&amp;#34;Hello From the Blog!&amp;#34;) $y=mx+b$&#xA;x y 1 2 Hi Mama text me if you find this.</description>
     </item>
+    <item>
+      <title>Raspberry Pi NextCloud Server</title>
+      <link>https://madargani.github.io/posts/pi-nextcloud/</link>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://madargani.github.io/posts/pi-nextcloud/</guid>
+      <description>Lately I&amp;rsquo;ve been interested in building my own homelab. Ideally I would like to have a setup that allows me to store my files remotely and experiment with cybersecurity techniques. Originally I wanted to find a used computer to host my homelab, but I got a Raspberry Pi 5 for Christmas! In this post I will go over the steps I went through to set up NextCloud on my Pi.</description>
+    </item>
   </channel>
 </rss>
