@@ -5,15 +5,15 @@ date = 2024-12-28
 
 ![PI NAS](https://images.sidearmdev.com/convert?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fwww2.sfstategators.com%2Fimages%2F2023%2F2%2F10%2F7I2A9297.png&type=webp) 
 
-Cloud Storage, store and access all of your files, photos, and videos from anywhere. It's amazing ... until you hit the dreaded storage limit.
+Cloud Storage, store and access all of your files, photos, and videos from anywhere. It's perfect! ... until you hit the dreaded storage limit.
 
 Recently, I ran into this exact problem. Apparently years of wrestling match videos takes a lot of space from google drive. After searching for a solution, I came across **self-hosting**.
 
-Yes, I could just buy more cloud storage, however self-hosting has a couple of advantages over commercial options:
+Yes, I could just buy more cloud storage, however self-hosting has a few advantages over commercial options:
 1. **Cost**  
 Self-hosting eliminates recurring subscription fees making it a great long term solution.
 2. **Privacy**  
-I own my server and data which means my data can't be accessed by third-parties and stays private.
+I **own** my server means my data can't be accessed by third-parties and stays private.
 3. **Control**  
 Home servers are highly customizable and flexible. I can adjust, modify, and upgrade my server according to my needs.
 4. **Skill Development**  
