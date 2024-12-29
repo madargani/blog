@@ -6,8 +6,8 @@ tags = ["post", "markdown"]
 
 Hello! My name is Andre. This is my first Blog Post.
 
-```
-Code snippet test
+```javascript
+Console.log("Hello From the Blog!")
 ```
 
 $y=mx+b$
