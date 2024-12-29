@@ -68,7 +68,9 @@
   
   
   
-  <meta name="description" content="Lately I&rsquo;ve been interested in building my own homelab. Ideally I would like to have a setup that allows me to store my files remotely and experiment with cybersecurity techniques. Originally I wanted to find a used computer to host my homelab, but I got a Raspberry Pi 5 for Christmas! In this post I will go over the steps I went through to set up NextCloud on my Pi." />
+  <meta name="description" content="Cloud Storage, store and access all of your files, photos, and videos from anywhere. It&rsquo;s amazing &hellip; until you hit the dreaded storage limit.
+Recently, I ran into this exact problem. Apparently years of wrestling match videos takes a lot of space from google drive. After searching for a solution, I came across self-hosting.
+Yes, I could just buy more cloud storage, however self-hosting has a couple of advantages over commercial options:" />
   <meta name="author" content="Andre Dargani" />
   
 
@@ -174,13 +176,17 @@
   
   
   <meta itemprop="name" content="Raspberry Pi NextCloud Server">
-<meta itemprop="description" content="Lately I&rsquo;ve been interested in building my own homelab. Ideally I would like to have a setup that allows me to store my files remotely and experiment with cybersecurity techniques. Originally I wanted to find a used computer to host my homelab, but I got a Raspberry Pi 5 for Christmas! In this post I will go over the steps I went through to set up NextCloud on my Pi."><meta itemprop="datePublished" content="2024-12-28T00:00:00+00:00" />
+<meta itemprop="description" content="Cloud Storage, store and access all of your files, photos, and videos from anywhere. It&rsquo;s amazing &hellip; until you hit the dreaded storage limit.
+Recently, I ran into this exact problem. Apparently years of wrestling match videos takes a lot of space from google drive. After searching for a solution, I came across self-hosting.
+Yes, I could just buy more cloud storage, however self-hosting has a couple of advantages over commercial options:"><meta itemprop="datePublished" content="2024-12-28T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2024-12-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="116">
+<meta itemprop="wordCount" content="273">
 <meta itemprop="keywords" content="" />
   
   <meta property="og:title" content="Raspberry Pi NextCloud Server" />
-<meta property="og:description" content="Lately I&rsquo;ve been interested in building my own homelab. Ideally I would like to have a setup that allows me to store my files remotely and experiment with cybersecurity techniques. Originally I wanted to find a used computer to host my homelab, but I got a Raspberry Pi 5 for Christmas! In this post I will go over the steps I went through to set up NextCloud on my Pi." />
+<meta property="og:description" content="Cloud Storage, store and access all of your files, photos, and videos from anywhere. It&rsquo;s amazing &hellip; until you hit the dreaded storage limit.
+Recently, I ran into this exact problem. Apparently years of wrestling match videos takes a lot of space from google drive. After searching for a solution, I came across self-hosting.
+Yes, I could just buy more cloud storage, however self-hosting has a couple of advantages over commercial options:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://madargani.github.io/posts/pi-nextcloud/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-12-28T00:00:00+00:00" />
@@ -189,7 +195,9 @@
 
   
   <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Raspberry Pi NextCloud Server"/>
-<meta name="twitter:description" content="Lately I&rsquo;ve been interested in building my own homelab. Ideally I would like to have a setup that allows me to store my files remotely and experiment with cybersecurity techniques. Originally I wanted to find a used computer to host my homelab, but I got a Raspberry Pi 5 for Christmas! In this post I will go over the steps I went through to set up NextCloud on my Pi."/>
+<meta name="twitter:description" content="Cloud Storage, store and access all of your files, photos, and videos from anywhere. It&rsquo;s amazing &hellip; until you hit the dreaded storage limit.
+Recently, I ran into this exact problem. Apparently years of wrestling match videos takes a lot of space from google drive. After searching for a solution, I came across self-hosting.
+Yes, I could just buy more cloud storage, however self-hosting has a couple of advantages over commercial options:"/>
 
   
   
@@ -323,11 +331,22 @@
   </header>
 
   <section><p><img src="https://images.sidearmdev.com/convert?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fwww2.sfstategators.com%2Fimages%2F2023%2F2%2F10%2F7I2A9297.png&amp;type=webp" alt="PI NAS"></p>
-<p>Lately I&rsquo;ve been interested in building my own homelab.
-Ideally I would like to have a setup that allows me to store my files remotely and experiment with cybersecurity techniques.
-Originally I wanted to find a used computer to host my homelab, but I got a Raspberry Pi 5 for Christmas!
-In this post I will go over the steps I went through to set up NextCloud on my Pi.</p>
+<p>Cloud Storage, store and access all of your files, photos, and videos from anywhere. It&rsquo;s amazing &hellip; until you hit the dreaded storage limit.</p>
+<p>Recently, I ran into this exact problem. Apparently years of wrestling match videos takes a lot of space from google drive. After searching for a solution, I came across <strong>self-hosting</strong>.</p>
+<p>Yes, I could just buy more cloud storage, however self-hosting has a couple of advantages over commercial options:</p>
+<ol>
+<li><strong>Cost</strong><br>
+Self-hosting eliminates recurring subscription fees making it a great long term solution.</li>
+<li><strong>Privacy</strong><br>
+I own my server and data which means my data can&rsquo;t be accessed by third-parties and stays private.</li>
+<li><strong>Control</strong><br>
+Home servers are highly customizable and flexible. I can adjust, modify, and upgrade my server according to my needs.</li>
+<li><strong>Skill Development</strong><br>
+Building and experimenting with a home server is a great way to gather technical knowledge about networking, containers, hacking, and more.</li>
+</ol>
+<p>This Christmas I got a Raspberry Pi 5 which was the perfect tool for starting my self-hosting journey. In this blog I will go over the steps I went through to set up NextCloud on my Pi.</p>
 <h2 id="nextcloud">NextCloud</h2>
+<p>NextCloud provides free, open source software for self-hosting files. Besides cloud storage, NextCloud also offers apps for email, calendars, and even self-hosted AI chat bots. I&rsquo;ll only be focusing cloud storage, but will probably look into the other NextCloud features in the future.</p>
 <h2 id="equipment-used">Equipment Used</h2>
 <ul>
 <li>Raspberry Pi</li>
