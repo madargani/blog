@@ -47,12 +47,10 @@ void main() {
     color = lerp(ocean, shore, v / 0.2);
   else if (v < 0.5)
     color = sand;
-  else if (v < 0.75)
+  else if (v < 0.9)
     color = green + 0.2 * cnoise(16.0 * st);
-  else if (v < 0.95)
-    color = rock * 1.5 * v - 0.2;
-  else
-    color = snow;
+  else 
+    color = rock * 1.5 * v - 0.3;
   
   
   gl_FragColor = vec4(color, 1.0);
