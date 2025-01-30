@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>I&#39;m MAD</title>
-    <link>https://madargani.github.io/</link>
-    <description>Recent content on I&#39;m MAD</description>
+    <title>Hugo on I&#39;m MAD</title>
+    <link>https://madargani.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on I&#39;m MAD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 27 Dec 2024 21:41:52 -0800</lastBuildDate>
-    <atom:link href="https://madargani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://madargani.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post - Markdown Tutorial</title>
       <link>https://madargani.github.io/posts/firstpost/</link>
       <pubDate>Fri, 27 Dec 2024 21:41:52 -0800</pubDate>
       <guid>https://madargani.github.io/posts/firstpost/</guid>
       <description>Hello! My name is Andre. This is my first Post.&#xA;I built this website using Hugo and GitHub Pages. Hugo is a popular static site generator. Hugo allows me to write these posts as markdown files which are then converted into static HTML files. This files are finally pushed to my GitHub Pages site which is where you are viewing this now!&#xA;I have two main goals for this website. First, I want to secure an internship.</description>
-    </item>
-    <item>
-      <title>Raspberry Pi NextCloud Server</title>
-      <link>https://madargani.github.io/posts/pi-nextcloud/</link>
-      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://madargani.github.io/posts/pi-nextcloud/</guid>
-      <description>Cloud Storage, store and access all of your files, photos, and videos from anywhere. It&amp;rsquo;s perfect! &amp;hellip; until you hit the dreaded storage limit.&#xA;Recently, I ran into this exact problem. Apparently years of wrestling match videos takes a lot of space from google drive. After searching for a solution, I came across self-hosting.&#xA;Yes, I could just buy more cloud storage, however self-hosting has a few advantages over commercial options:</description>
     </item>
   </channel>
 </rss>

@@ -1,14 +1,23 @@
 baseURL = "https://madargani.github.io/"
-languageCode = "en-us"
-title = "I'm not MAD"
+title = "I'm MAD"
 
-[params]
-  # favicon     = "img/favicon.png"
-  description = "Andre Dargani's Personal Website"
+[menus]
+  [[menus.main]]
+    name = "aboutMe"
+    url = "/aboutMe"
+    weight = 10
+  [[menus.main]]
+    name = "projects"
+    url = "/projects"
+    weight = 20
+  [[menus.main]]
+    name = "devLogs"
+    url = "/devlogs"
+    weight = 30
+  [[menus.main]]
+    name = "linkedIn"
+    url = "https://linkedin.com/in/andre-dargani"
+  [[menus.main]]
+    name = "gitHub"
+    url = "https://github.com/madargani"
 
-  [params.author]
-    name = 'Andre Dargani'
-
-[module]
-[[module.imports]]
-path = "github.com/hugo-porto/theme"

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on I&#39;m not MAD</title>
+    <title>Posts on I&#39;m MAD</title>
     <link>https://madargani.github.io/posts/</link>
-    <description>Recent content in Posts on I&#39;m not MAD</description>
+    <description>Recent content in Posts on I&#39;m MAD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Fri, 27 Dec 2024 21:41:52 -0800</lastBuildDate>
     <atom:link href="https://madargani.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Blog Post</title>
+      <title>My First Post - Markdown Tutorial</title>
       <link>https://madargani.github.io/posts/firstpost/</link>
       <pubDate>Fri, 27 Dec 2024 21:41:52 -0800</pubDate>
       <guid>https://madargani.github.io/posts/firstpost/</guid>
-      <description>Hello! My name is Andre. This is my first Blog Post.&#xA;I plan to use this platform to document my progress in my personal projects and share what I learn.&#xA;console.log(&amp;#34;Hello From the Blog!&amp;#34;) $y=mx+b$&#xA;x y 1 2 Hi Mama text me if you find this.</description>
+      <description>Hello! My name is Andre. This is my first Post.&#xA;I built this website using Hugo and GitHub Pages. Hugo is a popular static site generator. Hugo allows me to write these posts as markdown files which are then converted into static HTML files. This files are finally pushed to my GitHub Pages site which is where you are viewing this now!&#xA;I have two main goals for this website. First, I want to secure an internship.</description>
     </item>
     <item>
       <title>Raspberry Pi NextCloud Server</title>

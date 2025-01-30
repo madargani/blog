@@ -1,0 +1,18 @@
+<h1>MAD</h1>
+<nav>
+{{ range site.Menus.main }}
+  <a href="{{ .URL }}">
+    {{ if eq .Name "linkedIn" }}
+      {{ with resources.Get "img/linkedin.svg" }}
+        <img class="icon" src="{{ .Permalink }}" alt="linkedIn"></img>
+      {{ end }}
+    {{ else if eq .Name "gitHub" }}
+      {{ with resources.Get "img/github.svg" }}
+        <img class="icon" src="{{ .Permalink }}" alt="linkedIn"></img>
+      {{ end }}
+    {{ else }}
+      {{ .Name }}
+    {{ end }}
+  </a>
+{{ end }}
+</nav>

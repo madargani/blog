@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> {{ .Title }} </title>
+
+{{ with resources.Get "css/reset/reset.css" }}
+  <link rel="stylesheet" type="text/css" href="{{ .Permalink }}">
+{{ end }}
+{{ range resources.Match "css/*" }}
+  <link rel="stylesheet" type="text/css" href="{{ .Permalink }}">
+{{ end }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+<script src="https://lygia.xyz/resolve.js"></script>
