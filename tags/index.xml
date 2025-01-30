@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on I&#39;m not MAD</title>
+    <title>Tags on I&#39;m MAD</title>
     <link>https://madargani.github.io/tags/</link>
-    <description>Recent content in Tags on I&#39;m not MAD</description>
+    <description>Recent content in Tags on I&#39;m MAD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Fri, 27 Dec 2024 21:41:52 -0800</lastBuildDate>
     <atom:link href="https://madargani.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://madargani.github.io/tags/hugo/</link>
+      <pubDate>Fri, 27 Dec 2024 21:41:52 -0800</pubDate>
+      <guid>https://madargani.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Markdown</title>
       <link>https://madargani.github.io/tags/markdown/</link>
       <pubDate>Fri, 27 Dec 2024 21:41:52 -0800</pubDate>
       <guid>https://madargani.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Post</title>
-      <link>https://madargani.github.io/tags/post/</link>
-      <pubDate>Fri, 27 Dec 2024 21:41:52 -0800</pubDate>
-      <guid>https://madargani.github.io/tags/post/</guid>
       <description></description>
     </item>
   </channel>
